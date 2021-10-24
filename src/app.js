@@ -5,8 +5,6 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 require('dotenv').config();
 
-const { Book } = require('./models');
-
 const app = express();
 
 mongoose
